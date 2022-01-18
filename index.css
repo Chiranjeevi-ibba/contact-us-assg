@@ -1,0 +1,144 @@
+.body {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.banner-cont {
+    position: relative;
+    top:70px;
+    left:0;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    height:45vh;
+    width:100%;
+}
+.banner-image {
+    height:100%;
+    width:100%;
+}
+.contact-us-cont {
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-text {
+    position: absolute;
+    top:20px;
+    left:20px;
+    background-color: #fff;
+}
+.testimonial-image {
+    width:150px;
+    height:100px;
+    border-radius: 6px;
+}
+.list-item {
+    width:25%;
+    height:45%;
+}
+.testimonial-cont {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 6px;
+
+}
+.un-order-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    list-style-type: none;
+    flex-wrap:wrap;
+}
+.btn-style {
+    background-color: transparent;
+    border:0px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+.details {
+    padding: 0px;
+    margin:0px
+}
+ .testimonial-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+} 
+.each-form-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-cont {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding:20px;
+}
+.form-cont > div {
+    padding: 6px;
+}
+.input-field {
+    background-color: transparent;
+    border: 1.5px solid #222222;
+    margin-left: 6px;
+}
+.submit-btn {
+    background-color: #ffffff;
+    padding:6px ;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.logo-style {
+    height:60px;
+    margin-left: 12px;
+}
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height:70px;
+    width:100%;
+    margin-bottom: 12px;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #ffffff;
+}
+.un-order-nav {
+    list-style-type: none;
+    display: flex;
+    
+}
+.un-order-nav-li {
+    margin-right: 12px;
+   
+}
+.testimonials-cont {
+    position: relative;
+    top: 70px;
+    left: 0;
+}
+.nav-links {
+    text-decoration: none;
+    color:#222222;
+    font-weight: bold;
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
